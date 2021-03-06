@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "src/index",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "glob": "^7.1.6",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Armstrong",
+  "license": "ISC"
+}
