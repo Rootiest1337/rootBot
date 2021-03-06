@@ -9,8 +9,9 @@ module.exports = class RootClient extends Client {
         this.validate(options);
 
         this.once('ready', () => {
-            console.log(`Logged in as ${this.user.username}`)        
-        });
+            console.log(`Logged in as ${this.user.username}`);  
+            this.user.setActivity('github.com/Rootiest1337/rootBot', {type: 4});
+            });
 
         this.on('message', async (message) => {
             const mentionRegex = RegExp(`^<@!${this.user.id}>$`)
