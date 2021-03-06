@@ -10,4 +10,3 @@ Invite the bot to your server [here](https://discord.com/api/oauth2/authorize?cl
 
 ## Support
 Add me at `sys#2810` or join our [support](https://discord.gg/A6GzUBCB9S) server.
-
