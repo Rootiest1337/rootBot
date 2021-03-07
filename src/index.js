@@ -1,4 +1,5 @@
-const RootClient = require('./structures/RootClient');
+const MenuDocsClient = require('./Structures/RootClient');
 const config = require('../config.json');
-const client = new RootClient(config);
-client.login();
+
+const client = new MenuDocsClient(config);
+client.start();
