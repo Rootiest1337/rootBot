@@ -12,5 +12,4 @@ module.exports = class extends Command {
 	async run(message, args) {
 		message.channel.send('Hello!');
 	}
-
 };
